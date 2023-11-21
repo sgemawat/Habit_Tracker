@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set, compatibility, and viewport -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title for the webpage -->
+    <title>Habit Tracker</title>
+
+    <!-- Link to jQuery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Link to layout.css and header.css stylesheets -->
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/header.css">
+
+    <!-- Additional styles injected dynamically -->
+    <%- style %>
+</head>
+
+<body>
+    <!-- Include header partial -->
+    <%- include('header') -%>
+
+    <!-- Main content area -->
+    <main>
+        <!-- Main layout container for content -->
+        <div class="layout-main">
+            <!-- Content from the specific view -->
+            <%- body %>
+        </div>
+    </main>
+
+    <!-- Include scripts injected dynamically -->
+    <%- script %>
+    
+    <!-- Link to Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/4286c095cf.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

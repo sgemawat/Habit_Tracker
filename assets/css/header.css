@@ -1,0 +1,28 @@
+/* Main header container styles */
+.header-main-div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(3, 3, 3);
+  padding: 0 10px;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+/* Paragraph styles inside the main header */
+.header-main-div p {
+  font-weight: 900;
+  font-size: 25px;
+  margin: 8% 0px;
+}
+
+/* List item styles inside the main header */
+.header-main-div li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Link styles inside the main header */
+.header-main-div a {
+  color: inherit;
+}

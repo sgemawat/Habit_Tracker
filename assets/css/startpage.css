@@ -1,0 +1,38 @@
+/* Body styles with background image */
+body {
+  background-image: url("/images/startPage.jpeg");
+}
+
+/* Styles for stagePageHeading container */
+#stagePageHeading {
+  height: 30vh;
+}
+
+/* Styles for h1 and p inside stagePageHeading container */
+#stagePageHeading h1 {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+#stagePageHeading p {
+  color: #BBB9B9;
+  font-size: 20px;
+}
+
+/* Styles for stagePagebutton container */
+#stagePagebutton {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+/* Styles for button inside stagePagebutton container */
+#stagePagebutton button {
+  width: 12%;
+  height: 18%;
+  font-size: 20px;
+  border-radius: 50px;
+  background-color: #E8576B;
+  color: white;
+  border: none;
+}
